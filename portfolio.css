@@ -6,270 +6,157 @@
   margin:0px;
   box-sizing:border-box;
 }
-body{
-padding-bottom:200vh;
-}
 
 .header{
- display:flex;
- flex-direction:row;
- justify-content:space-between;
- margin-top:25px;
- margin-left:20px;
-}
-
-.head{
-  margin-right:40px;
-  font-size:18px;
-  font-weight:bold;
-  color:rgb(89, 88, 88);
-  margin-left:10px;
-  transition: all 0.5s ease ;
-}
-.head:hover{
-  color:#3572EF;
-  text-decoration:underline;
-  cursor:pointer;
-}
-
-
-.single-name{
-  font-weight:bolder;
-  font-size:22px;
-  color:#D10363
-}
-
-.single-name:hover{
-  font-weight:800;
-  color:#3572EF;
-  cursor:pointer;
-}
-
-.button{
   display:flex;
   align-items:center;
+  justify-content:space-between;
 }
 .talk{
-  padding:8px 26px;
-  font-size:16px;
+  margin-right:65px;
+  padding:8px 22px;
+  font-size:14px;
   border-radius:8px;
   border:none;
-  color:white;
-  background-color:#D10363;
   font-weight:bold;
-  margin-right:40px;
+  color:white;
+  background-color:#00A9FF;
   transition: all 0.5s ease ;
-  
 }
 .talk:hover{
-  background-color:#3572EF;
-  cursor:pointer;
+  color:white;
+  background-color:#D10363;
+  font-size:18px;
 }
 
-.main{
-  margin-top:200px;
-  display:flex;
-  flex-direction:column;
-  margin-left:80px;
+.text{
+  margin:10px;
+  font-size:22px;
+  font-weight:bold;
+  color:rgb(99,99,99);
+  transition: all 0.5s ease ;
 }
-.info-data{
+.text:hover{
+  font-size:24px;
+  color:#D10363;
+  text-decoration:underline;
+}
+.peter{
+  color:#00A9FF;
+}
+
+.text-header{
+  display:flex;
+  justify-content:space-evenly;
+  width:700px;
+}
+
+.intro-self{
+  margin-left:30px;
+  width:550px;
+  margin-top:200px;
+}
+
+.intro{
+  display:flex;
+  justify-content:flex-start;
   font-size:32px;
   font-weight:bold;
-  color:rgb(89, 88, 88);
+  color:rgb(99,99,99);
 }
-.singh{
+.priyanshu{
+  color:#00A9FF;
+  margin-left:5px;
+  transition: all 0.5s ease ;
+}
+.priyanshu:hover{
   color:#D10363;
-  transition: all 0.5s ease;
-}
-.singh:hover{
-  color:#3572EF;
+  font-size:34px;
   text-decoration:underline;
 }
-.job{
-  color:rgb(89, 88, 88);
-  font-size:24px;
-  font-weight:bold;
-  
-}
-.job:hover{
-  color:#3572EF;
-  cursor:pointer;
-  cursor:pointer;
-}
-
-.self-intro{
+.position-first{
   display:flex;
-  width:300px;
+  justify-content:flex-start;
+  font-size:22px;
+  font-weight:400;
+  margin-bottom:15px;
+  margin-top:8px;
+  color:rgb(99,99,99);
+  cursor:pointer;
+}
+.position-first:hover{
+  font-weight:bold;
+  color:#D10363;
+  text-decoration:underline;
 }
 
-.self-intro{
-  color:rgb(89, 88, 88);
-  font-size:14px;
-  margin-top:10px;
+.intro-text{
+  font-size:16px;
+  color:rgb(99,99,99);
   margin-bottom:25px;
 }
 
-.button-icon{
- display:flex;
- align-items:center;
+.intro-buttons{
+  display:flex;
+  align-items:center;
+
 }
-.butt{
-  padding:8px 24px;
-  margin:0px 15px;
-  font-size:14px;
-  border-radius:6px;
-  color:#D10363;
-  border-color:#D10363;
+.bb{
+  padding:8px 16px;
+  font-size:16px;
+  border-radius:8px;
+  margin-right:25px;
   border-style:solid;
-  border-width:2px;
-  background-color:#FFFDB5;
-  transition: all 0.5s ease;
+  border-color:#00A9FF;
+  background-color:white;
+  color:#00A9FF;
+  transition: all 0.5s ease ;
+  margin-bottom:100px;
 }
-.butt:hover{
+.bb:hover{
   color:white;
   background-color:#D10363;
-  cursor:pointer;
+  border-color:#D10363;
+  padding: 12px 22px;
 }
-
-.icons{
+.section-one{
+  position:relative;
+  height:950px;
+  background-color:#FBF0B2;
+}
+.profile-photo{
   display:flex;
   align-items:center;
-  margin-top:300px;
-  margin-left:80px;
-}
-
-
-
-
-.link{
-  text-decoration:none;
-  background-color:#3572EF;
-  margin:0 8px;
-  height:34px;
-  width:34px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  color:white;
-  font-size:18px;
-  border-radius:50%;
-  transition: all 0.5s ease ;
-  margin-bottom:30px;
-}
-
-.link:hover{
-  height:40px;
-  width:40px;
-  font-size:24px;
-}
-
-.background{
-  background-color:#FFFDB5;
-  height:900px;
+  width:600px;
+  height:800px;
   position:absolute;
-  top:0;
-  left:0;
-  right:0;
+  top:50px;
+  right:250px;
+  justify-content:center;
 }
 .image{
-  position:absolute;
-  right:160px;
-  top:60px;
-  height:800px;
-  
-}
-.profile-picture{
   height:100%;
   object-fit:cover;
+  filter:drop-shadow(1px 1px 20px black)
 }
-
-.img{
-  padding-top:40px;
-  height:800px;
-}
-.section-second-pho{
-  height:100%;
-  object-fit:contain;
-}
-.section-section{
-  background-color:#6FDCE3;
-  display:flex;
-  flex-direction:row;
-  justify-content:space-evenly;
-  align-items:center;
- 
-}
-
-.about-data{
-  padding:25px;
-  max-width:390px;
-  width:100%;
-  border-radius:24px;
-  background-color:#D1D8C5;
-  box-shadow:0px 5px 10px rgba(0,0,0,0.1);
+.icons-text{
   display:flex;
   align-items:center;
-  flex-direction:column;
-  height:400px;
+  padding-left:30px;
 }
-.data1{
-  display:flex;
-  font-size:45px;
-  font-weight:bold;
-  color:#D10363;
-  transition: all 0.5s ease ;
-  cursor:pointer;
-}
-.data1:hover{
-  color:#FFBF00;
-  text-decoration:underline;
-  font-size:47px;
-}
-.data2{
-  font-size:18px;
-  margin-bottom:15px;
-  font-weight:500;
-  color:rgb(89, 88, 88);
-  transition: all 0.5s ease 
-}
-.data2:hover{
-  color:#3572EF;
+.link{
   font-size:22px;
-  text-decoration:underline;
-}
-.data3{
-  font-size:14px;
-  font-weight:400;
-  color:rgb(89, 88, 88);
-  margin-bottom:25px;
-  transition: all 0.5s ease;
-}
-.data3:hover{
-  font-weight:bold;
-}
-
-.buttons-info{
- display:flex;
- align-items:center;
-}
-.button-data{
-  padding:8px 16px;
-  font-size:15px;
-  border-radius:24px;
-  border-color:#D10363;
-  background-color:#D1D8C5;
-  border-style:solid;
-  color:#D10363;
-  margin-right:25px;
-  transition: all 0.5s ease ;
-  cursor:pointer;
-}
-
-.button-data:hover{
-  background-color:#D10363;
-  border-color:#D10363;
+  background-color:#00A9FF;
+  border-radius:50%;
+  padding:4px;
+  display:flex;
+  align-items:center;
+  text-decoration:none;
+  margin-right:15px;
   color:white;
-  padding:12px 20px;
-
+  transition: all 0.5s ease ;
+}
+.link:hover{
+  font-size:30px;
 
 }
